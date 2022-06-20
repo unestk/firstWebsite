@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Intelligence</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar Section-->
+   <nav class="navbar">
+       <div class="navbar__container">
+         <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Art1f1c1al Intelligence</a>  
+         <div class="navbar__toggle" id="mobile-menu">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+         </div>
+         <ul class="navbar__menu">
+             <li class="navbar__item">
+                 <a href="index.html" class="navbar__links">Home</a>
+             </li>
+             <li class="navbar__item">
+                <a href="videos.html" class="navbar__links"> Videos</a>
+            </li>
+            <li class="navbar__item">
+                <a href="photos.html" class="navbar__links">Photos</a>
+            </li>
+             <li class="navbar__item">
+                <a href="about.html" class="navbar__links">About Us</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="/" class="button">Sign Up</a>
+            </li>
+         </ul>
+       </div>
+   </nav>
+   <!-- Hero Section2 -->
+   <div class="main2"></div>
+       <div class="main__container2">
+           <div class="main__content2">
+               <h1>About Us</h1>
+               <p>Hello! My name is Une. I am an 18 year old girl, who loves to code with different programming languages.
+                   <br>
+                   <br>
+                   I created this website, because i am really interested in artificial intelligence and i want others to learn some cool things about new technologies.
+                </p>
+           </div>
+           <div class="main_img--container2">
+               <img src="images/picabout.jpg" alt="pic" align="right" id="main__img2">
+           </div>
+           <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=4cglcKBL5U2HhNj21Wp5fESpZ8fZgHtBlbKhCd6rdBxUQU1SM1FRMzM5OVhCT1BWTDNNRjhEMVNTTC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+       </div>
+   </div>
+   <!--Footer Section -->
+   <div class="footer__container">
+       <div class="footer__links">
+           <div class="footer__link--wrapper">
+               <div class="footer__link--items">
+                  <h2> About Us</h2>
+                  <a href="/">How it works</a> 
+                  <a href="/">Testimonals</a>
+                  <a href="/">Careers</a>
+                  <a href="/">Investments</a>
+                  <a href="/">Terms of Service</a>
+               </div>
+          </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><i class="fas fa-gem"></i>AI</a>
+                </div>
+                <p class="website__rights">©Art1f1c1al Intelligence 2021. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                            </a>
+                </div>
+            </div>
+        </div>
+        <p> 
+            <script>
+            var mydate=new Date()
+            var year=mydate.getYear()
+            if (year < 1000)
+            year+=1900
+            var day=mydate.getDay()
+            var month=mydate.getMonth()+1
+            if (month<10)
+            month="0"+month
+           var daym=mydate.getDate()
+           if (daym<10)
+            daym="0"+daym
+            document.write("<small><font color='000000' face='Arial'><b>"+month+"/"+daym+"/"+year+"</b></font></small>")
+            </script>
+        </p>
+   </div>
+
+   <script src="app.js"></script>
+</body>
+</html>
